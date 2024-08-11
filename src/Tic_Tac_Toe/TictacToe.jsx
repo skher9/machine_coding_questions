@@ -14,7 +14,7 @@ import {
   Header,
 } from "./style";
 
-const Home = () => {
+const TictacToe = () => {
   const [matrix, setmatrix] = useState([
     [null, null, null],
     [null, null, null],
@@ -123,4 +123,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default TictacToe;
