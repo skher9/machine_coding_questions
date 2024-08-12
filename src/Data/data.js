@@ -1,4 +1,5 @@
 import GridLights from "../Grid Lights/GridLights";
+import Pagination from "../Pagination/Pagination";
 import TictacToe from "../Tic_Tac_Toe/TictacToe";
 
 const projectData = [
@@ -11,6 +12,11 @@ const projectData = [
         name: "Tic Tac Toe",
         path: "/GridLights",
         component: <TictacToe />
+    },
+    {
+        name: "Pagination",
+        path: "/Pagination",
+        component: <Pagination />
     }
 ];
 
